@@ -1,10 +1,9 @@
-
+var URL = "0Ai6FEf_e95YqdGZLU0NLOTktM3NlbWFORmprYlRhNlE";
     var gData;
     var trickle;
 
   document.addEventListener('DOMContentLoaded', function() {
     $("#container").html(ich.getproject);
-    var URL = "0Ai6FEf_e95YqdGZLU0NLOTktM3NlbWFORmprYlRhNlE";
     Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true } );
     NProgress.configure({ showSpinner: false, trickle: false });
     showNextGif();
@@ -15,7 +14,6 @@
   });
 
   function update(){
-    var URL = "0Ai6FEf_e95YqdGZLU0NLOTktM3NlbWFORmprYlRhNlE";
     Tabletop.init( { key: URL, callback: function(data){
       for(var i in data){
         //is it in already?
