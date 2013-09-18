@@ -12,7 +12,7 @@ var URL = "0Ai6FEf_e95YqdGZLU0NLOTktM3NlbWFORmprYlRhNlE";
       update();
     }, 20000); //20 seconds
     
-    $("body").click(function(){
+    $("body").bind("touchstart click", function(){
         if($("body").css("background-size") === "cover"){
             $("body").css("background-size", "contain");
         } else {
