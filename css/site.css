@@ -1,0 +1,25 @@
+body {
+	background: url(../img/background.jpg);
+	background-size: cover;
+	text-align: center;
+}
+
+.container>div{
+	background-color: #F0E9DC;
+	padding: 24px 23px 20px;
+	position: relative;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	margin: 5em auto;
+	max-width: 536px;
+}
+input[type=text] { height: auto; }
+label, .btn, input[type=text] { display: block; margin: 1em auto; }
+.btn {
+}
+.demo-headline {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+img{ max-width: 100%; }
