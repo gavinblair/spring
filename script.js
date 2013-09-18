@@ -11,6 +11,15 @@ var URL = "0Ai6FEf_e95YqdGZLU0NLOTktM3NlbWFORmprYlRhNlE";
     setInterval(function(){
       update();
     }, 20000); //20 seconds
+    
+    $("body").click(function(){
+        if($("body").css("background-size") === "cover"){
+            $("body").css("background-size", "contain");
+        } else {
+            $("body").css("background-size", "cover");
+        }
+    });
+    
   });
 
   function update(){
