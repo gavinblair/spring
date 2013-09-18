@@ -1,6 +1,6 @@
 [http://gavinblair.github.io/gifparty](http://gavinblair.github.io/gifparty)
 
-A *gifparty* is something I just made up right now. I guess it's like a youtube party, but with gifs.
+A **gifparty** is something I just made up right now. I guess it's like a youtube party, but with gifs.
 
 This app will pull in gifs from a Google spreadsheet, display each for 10 seconds. It continually checks the spreadsheet for updates and adds new gifs to the end of the queue.
 
