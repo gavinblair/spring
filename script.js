@@ -70,7 +70,7 @@ var URL = "0Ai6FEf_e95YqdGZLU0NLOTktM3NlbWFORmprYlRhNlE";
       setTimeout(function(){
         NProgress.done();
         showNextGif();
-      }, 5000);
+      }, 10000);
     }
   }
 $.fn.preload = function() {
