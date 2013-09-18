@@ -14,4 +14,4 @@ Make your own gifparty
 
 * be sure to change the "Add a Gif" link at the bottom of [index.html](https://github.com/gavinblair/gifparty/blob/gh-pages/index.html)
 
-* Navigate to http://**yourusername**.github.com/gifparty
+* Navigate to http://`yourusername`.github.com/gifparty
