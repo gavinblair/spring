@@ -269,7 +269,7 @@
 
     CCB_Audio.prototype.ref = function( ) {
       if ( this.length > 0 ) {
-        return '/audio/' + this.sample( ) + 'a.wav';
+        return '/spring/audio/' + this.sample( ) + 'a.wav';
       } else {
         this.range( );
 
@@ -304,7 +304,7 @@
 
     CCB_Image.prototype.ref = function( ) {
       if ( this.length > 0 ) {
-        return 'url(/gif/' + this.sample( ) + '.gif)';
+        return 'url(/spring/gif/' + this.sample( ) + '.gif)';
       } else {
         this.range( );
         return this.ref( );
@@ -380,7 +380,7 @@
       
       if ( !navigator.userAgent.match(/mobile|iphone|ipad|ipod|android|blackberry|iemobile|facebook/i) ) {
         var musique_concrete = document.getElementById( 'musique_concrete' );
-        musique_concrete.src = '/musicz.mp3';
+        musique_concrete.src = '/spring/musicz.mp3';
         musique_concrete.play();
         
         ga('send', {
